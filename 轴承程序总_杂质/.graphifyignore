@@ -1,0 +1,18 @@
+cat > .graphifyignore <<'EOF'
+temp_workspace/
+outputs/
+*.mat
+*.asv
+*.tmp
+*.bak
+*.log
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.DS_Store
+*.png
+*.jpg
+*.jpeg
+*.fig
+*.svg
+EOF
